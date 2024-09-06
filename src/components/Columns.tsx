@@ -52,7 +52,7 @@ export const columns: ColumnDef<TransformedCountry>[] = [
       if (imgURL) {
         return (
           <div>
-            <img src={imgURL} width={40} height={40} alt='country-flag' />
+            <img src={imgURL} width={30} height={30} alt='country-flag' />
           </div>
         );
       }
@@ -68,7 +68,7 @@ export const columns: ColumnDef<TransformedCountry>[] = [
       if (imgURL) {
         return (
           <div>
-            <img src={imgURL} width={40} height={40} alt='country-emblem' />
+            <img src={imgURL} width={30} height={30} alt='country-emblem' />
           </div>
         );
       }
